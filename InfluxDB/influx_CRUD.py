@@ -25,7 +25,7 @@ def main(host='localhost', port=8086):
     print "Update\n"
     #Update
     loop = 0
-    while loop < 10:
+    while loop < 100:
 	loop = loop + 1
 	        
 	print("Write points: {0}".format(get_Json()))
@@ -41,7 +41,7 @@ def main(host='localhost', port=8086):
     result = client.query('SELECT * FROM test WHERE BoolVal=true')
     print("Result: {0}".format(result))
 
-    #print("Switch user: " + user)
+    print("Switch user: " + user)
     client.switch_user(user, password)
 
     #Delete
