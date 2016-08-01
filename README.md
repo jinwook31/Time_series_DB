@@ -4,9 +4,9 @@
 
  - Data Type : Int, Float, Boolean, String, Multiple Type 지원
  - HW 사양에 따라서 초당 data input 수, 처리할수있는 column수가 결정됨
- - ; 을 안찍어도 실행이 되는것 이외에는 MySQL Query문에 큰 차이가 없음
- - 기본 사용 포트 : 8083, 8086, 8088
- 
+ - ; 을 안찍어도 실행이 되는것 이외에는 MySQL Query문이랑 큰 차이가 없음
+ - 기본 사용 포트 : 8083, 8086, 8088과
+ 이랑
 
 InfluxDB 간략 정리 : [http://db-engines.com/en/system/InfluxDB]
 
