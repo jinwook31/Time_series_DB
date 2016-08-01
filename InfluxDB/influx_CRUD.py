@@ -1,6 +1,9 @@
 import argparse
+import time
 import random
+from datetime import datetime
 from influxdb import InfluxDBClient
+
 
 def main(host='localhost', port=8086):
     user = 'root'
@@ -16,22 +19,23 @@ def main(host='localhost', port=8086):
     print("Create database: " + dbname)
     client.create_database(dbname)
 
-    #print("Create a retention policy")
+    print("Create a retention policy")
     client.create_retention_policy('awesome_policy', '3d', 3, default=True)
 
-    #print("Switch user: " + dbuser)
+    print("Switch user: " + dbuser)
     client.switch_user(dbuser, dbuser_password)
 
     print "Update\n"
     #Update
     loop = 0
-    while loop < 100:
+    while loop < 1000:
 	loop = loop + 1
+	time.sleep(2);
 	        
 	print("Write points: {0}".format(get_Json()))
         client.write_points(get_Json())
 
-    print("Queying data: " + query)
+    print("\nQueying data: " + query)
     result = client.query(query)
     print("Result: {0}".format(result))
 
@@ -46,10 +50,11 @@ def main(host='localhost', port=8086):
 
     #Delete
     print("Drop database: " + dbname)
-    client.drop_database(dbname)
+    #client.drop_database(dbname)
+
 
 def get_Json():
-    i = random.randrange(1,100)
+    i = random.randrange(1,500)
     f = random.random()
     b = random.choice([True, False])
 
@@ -58,8 +63,9 @@ def get_Json():
             "measurement": "test", #table
             "tags": {
                 "host": "server01",
-                "region": "us-west"
+                "region": "kor"
             },
+	    #"time": str(datetime.now()),
             "fields": {
                 "IntVal": i,
                 "FloatVal": f,
