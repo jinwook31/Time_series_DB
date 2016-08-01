@@ -8,9 +8,9 @@
  
 ###Grapana 연동
 
- - '$ influx' 로 influxDB 접속
+ - '''$ influx''' 로 influxDB 접속
 
- - 'CREATE DATABASE grafana' 로 설정정보 저장용 DB 생성
+ - '''CREATE DATABASE grafana''' 로 설정정보 저장용 DB 생성
 
  - Graphana 설치
 ~~~~
