@@ -15,6 +15,9 @@ InfluxDB 공식 Doc : [https://docs.influxdata.com/]
 
 ###Grapana 연동
 
+ Grapana는 데이터를 Graph, Table 등 보기 쉽게 시각적으로 표현해주는 툴입니다. InfluxDB에서 시간 정보와 저장된
+ 데이터를 간단하게 Graph로 나타내기 위해 이 툴을 사용하였습니다. 설치 방법은 아래와 같습니다.
+
  - `$ influx` 로 influxDB 접속
 
  - `CREATE DATABASE grafana` 로 설정정보 저장용 DB 생성
