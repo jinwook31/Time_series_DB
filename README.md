@@ -1,4 +1,16 @@
-#Time Series DB
+#DB Analysis
+
+##Key Value Store
+
+###Redis
+
+ - In-memory data structure store, used as database, cache and message broker
+ - 
+ 
+DB 요약 : [http://db-engines.com/en/system/Redis]
+
+
+##Time Sharing DataBase
 
 ###InfluxDB (V0.13)
 
