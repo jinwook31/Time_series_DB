@@ -61,6 +61,8 @@ InfluxDB 공식 Doc : [https://docs.influxdata.com/]
 ![final](http://cfile23.uf.tistory.com/image/2102784F5714478E0E969B)
 
 
+API : [http://influxdb-python.readthedocs.io/en/latest/api-documentation.html#influxdbclient]
+
 [http://hamait.tistory.com/537]
 
 [http://docs.grafana.org/datasources/influxdb/]
