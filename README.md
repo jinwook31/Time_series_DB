@@ -12,6 +12,7 @@
  - 지원 데이터 타입 : String, Set(String 집합), Sorted Set(score 가중치), Hashes, List
  - RDB (메모리 -> Dist) / AOF (Log file) 방식이 있는데, 두가지 모두 혼용해서 하는것이 좋음! 
 
+![img](http://cfile1.uf.tistory.com/image/202A37504FFBDA60262DD2)
 
 DB 요약 : [http://db-engines.com/en/system/Redis]
 
