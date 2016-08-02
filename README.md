@@ -4,8 +4,8 @@
 
 ###Redis
 
- - In-memory data structure store, used as database, cache and message broker
- - 
+ - In-memory 자료구조 DataBase로 캐시와 메시지 브로커로 주로 사용된다.
+ - Redis 설치 : http://egloos.zum.com/sweeper/v/3157496
  
 DB 요약 : [http://db-engines.com/en/system/Redis]
 
