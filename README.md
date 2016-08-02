@@ -6,7 +6,13 @@
 
  - In-memory 자료구조 DataBase로 캐시와 메시지 브로커로 주로 사용된다.
  - Redis 설치 : http://egloos.zum.com/sweeper/v/3157496
+ - Key/Value Store 형식이고, PUT/GET Operation 지원
+ - 모두 메모리에 저장되므로 빠른 write/read 속도를 지원한다
  
+ - 지원 데이터 타입 : String, Set(String 집합), Sorted Set(score 가중치), Hashes, List
+ - RDB (메모리 -> Dist) / AOF (Log file) 방식이 있는데, 두가지 모두 혼용해서 하는것이 좋음! 
+
+
 DB 요약 : [http://db-engines.com/en/system/Redis]
 
 
