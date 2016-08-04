@@ -17,6 +17,8 @@
 
 [http://www.paradigm4.com/]
 
+API : [http://scidb-py.readthedocs.io/en/stable/classes.html#scidb-array-class]
+
 
 ##Key Value Store
 
