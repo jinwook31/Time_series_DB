@@ -11,6 +11,7 @@
  - Data Type : int8, int16, int32, int64, unit8 ~ 64, datetime, datetimez, float, double, bool, char, string
  - PostgreSQL는 sciDB의 필수 의존성으로, 메타 데이터 카탈로그에 대한 지원
  
+설치 : [http://naofartemis.blogspot.kr/2016/03/scidb-version-148-1412.html]
  
 [http://m.blog.naver.com/estern/220643329680]
 
