@@ -3,10 +3,18 @@
 ##Multivalue DBMS
 
 ###sciDB
-
- - 
  
+ - 매우 큰 DB에 대한 과학적인 분석을 위하여 개발된 오픈소스 데이터 관리 시스템으로 다차원 배열 지원
+ - 기존의 DB와는 다르게 모든 트랜젝션을 지원하고 스키마가 없다.
+ - 분석 중심으로 구축되어 storage는 단일 행의 삽입보다는 대량의 자료 로드, 읽기, 쓰기가 가능하다 (병렬처리)
+ - 코어는 C++이지만, util은 R, Python, Matlab, IDL, C++을 이용하여 프로그래밍 가능
+ - PostgreSQL는 sciDB의 필수 의존성으로, 메타 데이터 카탈로그에 대한 지원
+ 
+ 
+[http://m.blog.naver.com/estern/220643329680]
+
 [http://db-engines.com/en/system/SciDB]
+
 [http://www.paradigm4.com/]
 
 
