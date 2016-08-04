@@ -1,5 +1,15 @@
 #DB Analysis
 
+##Multivalue DBMS
+
+###sciDB
+
+ - 
+ 
+[http://db-engines.com/en/system/SciDB]
+[http://www.paradigm4.com/]
+
+
 ##Key Value Store
 
 ###Redis
