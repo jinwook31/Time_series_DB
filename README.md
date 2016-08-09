@@ -47,7 +47,7 @@ DB 요약 : [http://db-engines.com/en/system/Redis]
 
 API : [http://redis.io/commands]
 
-##Time Sharing DataBase
+##Time Series DataBase
 
 ###InfluxDB (V0.13)
 
