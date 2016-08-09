@@ -21,12 +21,14 @@ def run(make):
         print 'Binary :', repr(sdb._scan_array(a.name, fmt=_fmt(a)))
         print 'NumPy :', a.toarray()
         print '-----------'
+
+	if dtype == 'bool' :
+	    a.relabel('update')
+	    print 'Update:'
+	    print '-----------'
+
+	#Delete
         a.reap()
 
+
 run(make)
-
-#Update 
-
-
-#Delete
-
