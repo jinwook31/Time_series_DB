@@ -22,11 +22,6 @@ def run(make):
         print 'NumPy :', a.toarray()
         print '-----------'
 
-	if dtype == 'bool' :
-	    a.relabel('update')
-	    print 'Update:'
-	    print '-----------'
-
 	#Delete
         a.reap()
 
