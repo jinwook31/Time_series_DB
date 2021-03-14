@@ -1,8 +1,8 @@
-#DB Analysis
+# DB Analysis
 
-##Multivalue DBMS
+# #Multivalue DBMS
 
-###sciDB
+### sciDB
  
  - 매우 큰 DB에 대한 과학적인 분석을 위하여 개발된 오픈소스 데이터 관리 시스템으로 다차원 배열 지원
  - 기존의 DB와는 다르게 모든 트랜젝션을 지원하고 스키마가 없다.
@@ -11,7 +11,7 @@
  - Data Type : int8, int16, int32, int64, unit8 ~ 64, datetime, datetimez, float, double, bool, char, string
  - PostgreSQL는 sciDB의 필수 의존성으로, 메타 데이터 카탈로그에 대한 지원
  
-####설치 (가장 최신 버전을 설치해야함 / 이전 버전은 지원 안하도록 해놓음..)
+#### 설치 (가장 최신 버전을 설치해야함 / 이전 버전은 지원 안하도록 해놓음..)
 
 ~~~~
   wget https://downloads.paradigm4.com/scidb-14.12-repository.deb
