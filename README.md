@@ -29,9 +29,9 @@
 API : [http://scidb-py.readthedocs.io/en/stable/classes.html#scidb-array-class]
 
 
-##Key Value Store
+## Key Value Store
 
-###Redis
+### Redis
 
  - In-memory 자료구조 DataBase로 캐시와 메시지 브로커로 주로 사용된다.
  - Redis 설치 : http://egloos.zum.com/sweeper/v/3157496
@@ -47,9 +47,9 @@ DB 요약 : [http://db-engines.com/en/system/Redis]
 
 API : [http://redis.io/commands]
 
-##Time Series DataBase
+## Time Series DataBase
 
-###InfluxDB (V0.13)
+### InfluxDB (V0.13)
 
  - Data Type : Int, Float, Boolean, String, Multiple Type 지원
  - HW 사양에 따라서 초당 data input 수, 처리할수있는 column수가 결정됨
@@ -61,7 +61,7 @@ InfluxDB 간략 정리 : [http://db-engines.com/en/system/InfluxDB]
 InfluxDB 공식 Doc : [https://docs.influxdata.com/]
 
 
-###Grapana 연동
+### Grapana 연동
 
  Grapana는 데이터를 Graph, Table 등 보기 쉽게 시각적으로 표현해주는 툴입니다. InfluxDB에서 시간 정보와 저장된
  데이터를 간단하게 Graph로 나타내기 위해 이 툴을 사용하였습니다. 설치 방법은 아래와 같습니다.
